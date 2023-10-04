@@ -6,8 +6,28 @@
 
 #github-container {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 ul {
+  flex-direction: column;
   list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+body{
+  background-color: antiquewhite;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: x-large;
+  
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
 }
